@@ -1,6 +1,7 @@
 新建一个名叫student_examination_sys的数据库：
 ```
 create DATABASE student_examination_sys;
+use student_examination_sys;
 ```
 1. 新建一个名为student的表：
 ```
@@ -26,6 +27,7 @@ INSERT INTO student(
   ("002","lisi",20,"female");
 ```
 ![1](https://github.com/liuaaahui/sqlTest1/blob/master/screenshot/1.png)
+
 2. 新建一个名为subject的表：
 ```
 CREATE TABLE subject(
@@ -50,6 +52,7 @@ INSERT INTO subject(
   (1002,"math","Miss Liu","the exam is difficult");
 ```
 ![2](https://github.com/liuaaahui/sqlTest1/blob/master/screenshot/2.png)
+
 3. 新建一个名为score的表：
 ```
 CREATE TABLE score(
