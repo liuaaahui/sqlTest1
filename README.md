@@ -25,7 +25,7 @@ INSERT INTO student(
   values
   ("002","lisi",20,"female");
 ```
-![1](./screenshot/1.png)
+![1](https://github.com/liuaaahui/sqlTest1/blob/master/screenshot/1.png)
 2. 新建一个名为subject的表：
 ```
 CREATE TABLE subject(
@@ -49,7 +49,7 @@ INSERT INTO subject(
   values
   (1002,"math","Miss Liu","the exam is difficult");
 ```
-![2](./screenshot/2.png)
+![2](https://github.com/liuaaahui/sqlTest1/blob/master/screenshot/2.png)
 3. 新建一个名为score的表：
 ```
 CREATE TABLE score(
@@ -85,4 +85,4 @@ INSERT INTO score(
   values
   ("002",1002,60.5);
 ```
-![3](./screenshot/3.png)
+![3](https://github.com/liuaaahui/sqlTest1/blob/master/screenshot/3.png)
